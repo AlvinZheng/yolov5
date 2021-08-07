@@ -22,12 +22,12 @@ fl_gamma: 0.0  # focal loss gamma (efficientDet default gamma=1.5)
 hsv_h: 0.015  # image HSV-Hue augmentation (fraction)
 hsv_s: 0.7  # image HSV-Saturation augmentation (fraction)
 hsv_v: 0.4  # image HSV-Value augmentation (fraction)
-degrees: 0.2#0.0  # image rotation (+/- deg), change to 5.0
-translate: 0.3#0.1  # image translation (+/- fraction), change to 0.3
+degrees: 0.0  # image rotation (+/- deg), change to 5.0
+translate: 0.1  # image translation (+/- fraction), change to 0.3
 scale: 0.5  # image scale (+/- gain)
-shear: 0.1#0.0  # image shear (+/- deg) change to 5.0
+shear: 0.0  # image shear (+/- deg) change to 5.0
 perspective: 0.0  # image perspective (+/- fraction), range 0-0.001  change to 0.0003
-flipud: 0.5#0.0  # image flip up-down (probability) change to 0.5
+flipud: 0.0  # image flip up-down (probability) change to 0.5
 fliplr: 0.5  # image flip left-right (probability)
 mosaic: 1.0  # image mosaic (probability)
 mixup: 0.0  # image mixup (probability)
